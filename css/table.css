@@ -1,0 +1,49 @@
+.table__caption {
+
+    padding: 10px;
+    font-family: "Lato", sans-serif;
+    text-align: right;
+    font-size: 10px;
+    caption-side: bottom;
+    margin-top: 5px;
+}
+
+.table {
+    overflow-x: auto;
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    max-width: 800px;
+}
+
+.table__cell {
+    border: 1px solid rgba(104, 31, 9, 0.4);
+    padding: 15px 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__cell--promo {
+    color: crimson;
+    font-weight: bold;
+}
+
+.table__header {
+    background-color: rgba(95, 57, 13, 0.25);
+}
+
+.table__row:nth-child(even) {
+    background-color: rgba(95, 57, 13, 0.075);
+}
+
+.table__row:hover {
+    background-color: rgba(95, 57, 13, 0.375);
+}
+
+.p__text {
+    max-width: 800px;
+    text-align: justify;
+}
+
+.tfoot {
+    background-color: rgba(95, 57, 13, 0.175);
+}

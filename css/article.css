@@ -1,0 +1,26 @@
+.article {
+    max-width: 840px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px #ccc;
+    margin: 20px auto;
+}
+
+.header {
+    display: inline-flex;
+    text-align: left;
+}
+
+.header__logo {
+    width: 133px;
+    height: 93px;
+}
+
+.header__heading {
+    font-family: Lato, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    padding: 15px 33px;
+    text-align: center;
+    display: inline;
+    vertical-align: middle;
+    text-shadow: 1px 1px #31303075;
+}

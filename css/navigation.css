@@ -1,0 +1,63 @@
+.navigation {
+    border: 4px outset rgba(105, 104, 104, 0.808);
+    border-radius: 15px;
+    max-width: 385px;
+    background-color: rgba(112, 65, 33, 0.137);
+    margin: 10px auto;
+}
+
+.navigation a:link {
+    background-color: rgb(199, 199, 199);
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: black;
+
+}
+
+.navigation a:hover {
+    background-color: rgb(29, 2, 2);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(250, 237, 221);
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+.navigation__unorderedList {
+    margin: 0;
+    padding: 10px 4px;
+    display: inline-block;
+}
+
+.navigation__listItem {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 4px;
+}
+
+.button__reaction a:link {
+    background-color: rgb(199, 199, 199);
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: black;
+}
+
+.button__reaction a:hover {
+    background-color: rgb(29, 2, 2);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(250, 237, 221);
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+.button__reaction ul {
+    list-style: none;
+    padding: 10px 0px;
+}

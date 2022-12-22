@@ -1,6 +1,4 @@
 .navigation {
-    /* display: flex;
-    flex-direction:row; */
     border: 4px outset rgba(105, 104, 104, 0.808);
     border-radius: 15px;
     /* max-width: 385px; */
@@ -13,6 +11,7 @@
 .navigation__unorderedList {
     display: flex;
     flex-direction:row;
+
     /* flex: auto; */
     /* flex-grow: 1; */
     /* flex-wrap: nowrap;  */
@@ -24,7 +23,10 @@
 
 .navigation__listItem {
     /* flex-basis: 25%;  */
+    /* flex: 1 0 0; */
     flex: auto;
+    /* flex-shrink: 1;
+    flex-basis: 1; */
     text-align: center;
     list-style: none;
     /* flex-grow: 1; */
@@ -33,6 +35,11 @@
     /* padding: 10px 4px; */
     padding: 0 5px 0 5px;;
     /* margin: 10px; */
+}
+
+navigation__listItem--special {
+        flex-shrink: 0;
+
 }
 
 .navigation a:link {

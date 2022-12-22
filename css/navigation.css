@@ -1,33 +1,50 @@
 .navigation {
-    display: flex;
+    /* display: flex;
+    flex-direction:row; */
     border: 4px outset rgba(105, 104, 104, 0.808);
     border-radius: 15px;
     /* max-width: 385px; */
     background-color: rgba(112, 65, 33, 0.137);
     /* margin: 10px auto; */
+  
+    
 }
 
 .navigation__unorderedList {
-    margin: 0;
-    padding: 10px 4px;
+    display: flex;
+    flex-direction:row;
+    /* flex: auto; */
+    /* flex-grow: 1; */
+    /* flex-wrap: nowrap;  */
+    /* margin: 0; */
+    padding: 5px;
+    /* padding: 10px 4px; */
     /* display: inline-block; */
 }
 
 .navigation__listItem {
+    /* flex-basis: 25%;  */
+    flex: auto;
+    text-align: center;
     list-style: none;
+    /* flex-grow: 1; */
+    /* flex-wrap: wrap; */
     /* display: inline-block; */
-    padding: 10px 4px;
+    /* padding: 10px 4px; */
+    padding: 0 5px 0 5px;;
+    /* margin: 10px; */
 }
 
 .navigation a:link {
     background-color: rgb(199, 199, 199);
-    padding: 10px 10px;
+    padding: 10px 30px;
+    /* flex-basis: 200px; */
     border-radius: 10px;
     text-decoration: none;
     font-weight: 400;
     font-family: "Lato", sans-serif;
     color: black;
-
+    
 }
 
 .navigation a:hover {

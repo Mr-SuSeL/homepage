@@ -1,40 +1,22 @@
 .navigation {
     border: 4px outset rgba(105, 104, 104, 0.808);
     border-radius: 15px;
-    /* max-width: 385px; */
-    background-color: rgba(112, 65, 33, 0.137);
-    /* margin: 10px auto; */
-  
-    
+    background-color: rgba(112, 65, 33, 0.137);  
 }
 
 .navigation__unorderedList {
     display: flex;
-    flex-direction:row;
-
-    /* flex: auto; */
-    /* flex-grow: 1; */
-    /* flex-wrap: nowrap;  */
-    /* margin: 0; */
-    padding: 5px;
-    /* padding: 10px 4px; */
-    /* display: inline-block; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center; 
+    flex: 1 1 auto;
 }
 
 .navigation__listItem {
-    /* flex-basis: 25%;  */
-    /* flex: 1 0 0; */
-    flex: auto;
-    /* flex-shrink: 1;
-    flex-basis: 1; */
     text-align: center;
     list-style: none;
-    /* flex-grow: 1; */
-    /* flex-wrap: wrap; */
-    /* display: inline-block; */
-    /* padding: 10px 4px; */
-    padding: 0 5px 0 5px;;
-    /* margin: 10px; */
+    padding: 5px 5px 5px 5px;
+    margin: 10px;
 }
 
 navigation__listItem--special {
@@ -45,7 +27,6 @@ navigation__listItem--special {
 .navigation a:link {
     background-color: rgb(199, 199, 199);
     padding: 10px 30px;
-    /* flex-basis: 200px; */
     border-radius: 10px;
     text-decoration: none;
     font-weight: 400;

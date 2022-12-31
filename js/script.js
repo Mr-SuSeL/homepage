@@ -1,6 +1,5 @@
 {
 
-
 const toggleContactInfo = () => {
     const data = new Date();
     const actualHour = data.getHours();
@@ -18,8 +17,6 @@ const toggleContactInfo = () => {
     else {
         alert("Problem ze stroną lub serwerem");
     }
-
-
 };
 
 const init = () => {

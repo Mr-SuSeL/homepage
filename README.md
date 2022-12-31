@@ -13,9 +13,9 @@ https://mr-susel.github.io/homepage/
 I provide services in the field of woodworking, especially table making.
 
 ### Page features
-ECMAScript +06 features
-Flexbox module
-Specific logo designed at the customer's request
-
+- ECMAScript +06 features
+- Flexbox module
+- Specific logo designed at the customer's request
+- Source code based on function structure
 
 
